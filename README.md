@@ -26,6 +26,9 @@ Se ejecuta de la siguiente manera:
 
 ## Cronización:
 
+Por default, este script debe ejecutarse cada 1 horas, ya que por defecto solo extrae el completo de la hora anterior a la que se ejecuta, por ej, si corre a las 17hs, este extrae todo entre las 16:00:00 y las 16:59:59.000
+Este comportamiento está diseñado en base a la necesidad del cliente, pero puede ser facilmente alterado.
+
 Para cronizar la tarea, puedes utilizar el siguiente comando:
 
 ``crontab -e``
