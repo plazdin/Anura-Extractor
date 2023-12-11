@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  anura-extractor:
+    restart: always
+    image: anura-ext:lastest
+    container_name: anura_ext
+    build:
+      context: .
+      dockerfile: dockerfile
+      network: host
+    network_mode: "host"
+    command: tail -F anything

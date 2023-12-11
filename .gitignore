@@ -1,0 +1,8 @@
+__pycache__/
+.vscode/
+req/
+
+debug_logs/
+*.log
+
+Pipfile
