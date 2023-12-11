@@ -1,4 +1,6 @@
-Anura extractor, para extraer datos de la API de Anura y cargarlos en BigQuery ya formateados, con el objetivo de reducir la carga de trabajo al sector de powerBi.
+# Anura extractor
+
+Utilidad para extraer datos de la API de Anura y cargarlos en BigQuery ya formateados, con el objetivo de reducir la carga de trabajo al sector de powerBi.
 Para ello, utiliza la biblioteca requests para conectarse a la API, la biblioteca pandas para formatear los datos y la pandas-gbq para cargar los datos en BigQuery.
 
 ## Configuración:
