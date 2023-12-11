@@ -3,6 +3,8 @@
 Utilidad para extraer datos de la API de Anura y cargarlos en BigQuery ya formateados, con el objetivo de reducir la carga de trabajo al sector de powerBi.
 Para ello, utiliza la biblioteca requests para conectarse a la API, la biblioteca pandas para formatear los datos y la pandas-gbq para cargar los datos en BigQuery.
 
+(Este repositorio solo contiene material informativo y de demostración, por lo que no contiene datos que comprometan al cliente.)
+
 ## Configuración:
 
 Para configurar el proyecto, primero debes tener las credenciales de google, renombrarlo a google_secrets.json y agregarlas a la carpeta config. Para más información, por favor diríjase al siguiente link:
