@@ -23,11 +23,11 @@ Se ejecuta de la siguiente manera:
 Además, este archivo recibe parámetros custom para fecha y horas, por lo que es posible obtener ciertos rangos de horas y fechas, de acuerdo a la necesidad.
 Por ejemplo, para obtener solo lo extraido desde las 12 hasta las 15 del día que se ejecuta, el código debería ser el siguiente:
 
-``python3 main.py -t 12 15``
+``docker exec nombre_contenedor python3 main.py -t 12 15``
 
 Si usted quiere una fecha específica, esta es pasada con la bandera -d, de la siguiente manera:
 
-``PYTHON3 MAIN.PY -t 12 -d YYYY-MM-DD``
+``docker exec nombre_contenedor python3 main.py -t 12 -d YYYY-MM-DD``
 
 También es posible pasar un rango de fechas de la misma forma, separando por espacios, al igual que el ejemplo anterior de la hora.
 
